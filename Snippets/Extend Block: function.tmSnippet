@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>/**
+ * ${10:Function description}${2:
+ * @param {${3:String}\} ${4:paramName} ${5:parameter description}}${7:
+ * @return {${8:String}\} ${9:Return value description}}
+ */
+${1:functionName}: function($4$6) {
+  $0
+}</string>
+	<key>name</key>
+	<string>Extend Block: function</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>ef</string>
+	<key>uuid</key>
+	<string>774A4546-B9A7-4D93-9890-6A909EC5BA57</string>
+</dict>
+</plist>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:this}.addEvents(
+    /**
+     * @event ${2:eventName}
+     * ${3:Event description}${4:
+     * @param {${5:paramType}\} ${6:paramName} ${7:parameter description}}
+     */
+    '${2:eventName}'$0
+);</string>
+	<key>name</key>
+	<string>Add Events</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>ae</string>
+	<key>uuid</key>
+	<string>E12B2B06-5AD6-43B3-8E73-C252FE4A20AA</string>
+</dict>
+</plist>

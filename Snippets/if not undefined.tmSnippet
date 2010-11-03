@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>if (${1:myObject} != undefined) ${2:{
+  $0
+\}}</string>
+	<key>name</key>
+	<string>if not undefined</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>ifnu</string>
+	<key>uuid</key>
+	<string>1F57324F-1A75-4AD6-B26D-E954031406E5</string>
+</dict>
+</plist>

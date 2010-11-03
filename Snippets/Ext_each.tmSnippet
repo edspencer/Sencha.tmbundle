@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>Ext.each(${1:Array}, ${2:function(${4}) {
+  ${0}
+\}}${3:, this});</string>
+	<key>name</key>
+	<string>Ext.each</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>each</string>
+	<key>uuid</key>
+	<string>B6DAC0C7-6D62-417C-93E0-8A0E066E61BD</string>
+</dict>
+</plist>

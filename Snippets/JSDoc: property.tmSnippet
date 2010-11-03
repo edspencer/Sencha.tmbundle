@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>/**
+ * @property ${1:propertyName}
+ * @type ${2:Boolean}
+ * ${3:Description}
+ */
+${4:this.$1} = ${5:new ${2:Boolean}({
+  $0
+\})};</string>
+	<key>name</key>
+	<string>JSDoc: property</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>prop</string>
+	<key>uuid</key>
+	<string>F627E68E-AABB-490A-BA44-EEAB322565E8</string>
+</dict>
+</plist>

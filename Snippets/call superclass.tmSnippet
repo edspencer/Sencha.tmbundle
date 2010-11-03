@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:MyClassName}.superclass.${2:constructor}.${3:apply}(${4:this, arguments});$0</string>
+	<key>name</key>
+	<string>call superclass</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>super</string>
+	<key>uuid</key>
+	<string>6E400364-0E6E-4430-B30E-E71B3AF48B59</string>
+</dict>
+</plist>

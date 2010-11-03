@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>initComponent: function() {
+    $0
+  
+    ${1:${TM_FILENAME/(.+)\.js$/$1/}}.superclass.initComponent.apply(this, arguments);
+}${2:,}</string>
+	<key>name</key>
+	<string>Extend Block: initComponent</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>initc</string>
+	<key>uuid</key>
+	<string>FE2E9D49-CD65-4D8E-887A-7D1AF4135AA5</string>
+</dict>
+</plist>

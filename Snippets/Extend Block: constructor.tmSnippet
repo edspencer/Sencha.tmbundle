@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>constructor: function(config) {
+    config = config || {};
+
+    Ext.applyIf(config, {
+        $0
+    });
+
+    ${2:Ext.Panel}.superclass.constructor.call(this, config);
+}${1:,}</string>
+	<key>name</key>
+	<string>Extend Block: constructor</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>cons</string>
+	<key>uuid</key>
+	<string>2CC9E301-22B7-488C-83C7-91C2E857657D</string>
+</dict>
+</plist>

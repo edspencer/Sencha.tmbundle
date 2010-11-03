@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>/**
+ * @event ${1:eventName}
+ * ${2:Event description}${3:
+ * @param {${4:paramType}\} ${5:paramName} ${6:parameter description}}
+ */
+'${1:eventName}'$0</string>
+	<key>name</key>
+	<string>Define Event</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>e</string>
+	<key>uuid</key>
+	<string>283AA107-1D77-4D6F-9348-991A59077C73</string>
+</dict>
+</plist>

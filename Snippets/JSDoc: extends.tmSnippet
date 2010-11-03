@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>* @extends ${1:ClassName}</string>
+	<key>name</key>
+	<string>JSDoc: extends</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>* e</string>
+	<key>uuid</key>
+	<string>2C6D2A51-0004-482C-BB97-D1D83124D238</string>
+</dict>
+</plist>
