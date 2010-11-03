@@ -1,4 +1,4 @@
-This bundle can be used for both Ext JS and Sencha Touch. It is compatible with Ext JS 3.x and above, with limited compatibility with Ext JS 2.x.
+This bundle is released under the MIT license and can be used for both Ext JS and Sencha Touch. It is compatible with Ext JS 3.x and above, with limited compatibility with Ext JS 2.x.
 
 Most of the snippets revolve around creating classes using Ext.extend. Each snippet has placeholders for JSDoc wherever appropriate.
 
