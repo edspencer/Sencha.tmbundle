@@ -4,5 +4,18 @@ Most of the snippets revolve around creating classes using Ext.extend. Each snip
 
 The easiest way to see what's available is to simply open the bundle up via the Bundles -> Bundle Editor -> Show Bundle Editor menu.
 
+How to install:
+
+    Mac OSX:
+    
+    cd ~/Library/Application Support/TextMate/Bundles
+    git clone git://github.com/edspencer/Sencha.tmbundle.git
+    
+    Windows:
+    
+    cd C:\Documents and Settings\{YOUR USERNAME}\Application Data\e\Bundles
+    git clone git://github.com/edspencer/Sencha.tmbundle.git
+
+
 Ed Spencer
 November 2010
