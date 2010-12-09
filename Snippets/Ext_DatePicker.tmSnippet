@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>new Ext.DatePicker(${1:{
+	yearFrom: ${2:2000},
+	yearTo  : ${3:2015}
+\}});
+</string>
+	<key>name</key>
+	<string>Ext.DatePicker</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>datePicker</string>
+	<key>uuid</key>
+	<string>410F4EEA-598E-47F3-8F02-19CBB92451C7</string>
+</dict>
+</plist>

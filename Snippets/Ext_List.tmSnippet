@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>new Ext.List({
+	fullscreen: ${1:true},
+
+	itemTpl : '${2:{firstName\} {lastName\}}',
+	grouped : ${3:true},
+	indexBar: ${4:true},
+
+	${5:data: [
+		{firstName: 'Tommy',   lastName: 'Maintz'\},
+		{firstName: 'Rob',     lastName: 'Dougan'\}
+	],}
+	${6:store: store}$0
+});
+</string>
+	<key>name</key>
+	<string>Ext.List</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>list</string>
+	<key>uuid</key>
+	<string>700868CB-0AF1-49F5-9740-27FC63D26EFD</string>
+</dict>
+</plist>

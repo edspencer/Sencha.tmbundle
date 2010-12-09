@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>new Ext.Panel({
+	fullscreen: ${1:true},
+
+	${2:dockedItems: [${3:
+  {
+    dock : 'top',
+    xtype: 'toolbar',
+    title: 'Standard Titlebar'
+  \},
+  {
+    dock : 'top',
+    xtype: 'toolbar',
+    ui   : 'light',
+    items: [
+        {
+            text: 'Test Button'
+        \}
+    ]
+  \}
+	}],}
+
+	html: ${4:'${5:Testing}'}
+});
+</string>
+	<key>name</key>
+	<string>Ext.Panel</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>panel</string>
+	<key>uuid</key>
+	<string>4D54DF05-F3D3-4C75-9AB6-522D61BA4BEF</string>
+</dict>
+</plist>

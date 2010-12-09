@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>Ext.setup({
+	tabletStartupScreen: '${1:tablet_startup.png}',
+	phoneStartupScreen: '${2:phone_startup.png}',
+	icon: '${3:icon.png}',
+	glossOnIcon: ${4:false},
+	
+	onReady: function() {
+ 		$0
+	}
+});
+</string>
+	<key>name</key>
+	<string>Ext.setup</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>setup</string>
+	<key>uuid</key>
+	<string>E7F6F5E6-E9BB-42AA-8CFD-D8367BDA380F</string>
+</dict>
+</plist>

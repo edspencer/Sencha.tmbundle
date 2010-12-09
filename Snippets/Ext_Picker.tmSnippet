@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>new Ext.Picker({
+  slots: [${1:
+    {
+      name : '${2:limit_speed}',
+      title: '${3:Speed}',
+      data : [${4:
+        {text: '50 KB/s', value: 50\},
+        {text: '100 KB/s', value: 100\},
+        {text: '200 KB/s', value: 200\},
+        {text: '300 KB/s', value: 300\}$0
+      }]
+    \}
+  }]
+});
+</string>
+	<key>name</key>
+	<string>Ext.Picker</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>picker</string>
+	<key>uuid</key>
+	<string>29FFF37B-43B1-4159-A530-F874E1EE6AB4</string>
+</dict>
+</plist>

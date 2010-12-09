@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>new Ext.Panel({
+	fullscreen: ${1:true},
+	items     : [
+  {
+    xtype             : 'map',
+    useCurrentLocation: ${2:true}
+  }
+	]
+});
+</string>
+	<key>name</key>
+	<string>Ext.Map</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>map</string>
+	<key>uuid</key>
+	<string>0CA2E0FC-7AA1-419F-B1D2-96B9874878F0</string>
+</dict>
+</plist>

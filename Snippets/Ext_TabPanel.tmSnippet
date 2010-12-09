@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>new Ext.TabPanel({
+	fullscreen: ${1:true},
+	ui        : '${2:dark}',
+	sortable  : ${3:true},
+	items: [${4:
+		{
+      title: 'Tab 1',
+      html : '1',
+      cls  : 'card1'
+	  \}$0
+	}]
+});
+</string>
+	<key>name</key>
+	<string>Ext.TabPanel</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>tabPanel</string>
+	<key>uuid</key>
+	<string>F78B4AFA-42A0-454E-9600-32C02CF94B9F</string>
+</dict>
+</plist>
+
+

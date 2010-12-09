@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>new Ext.Button({
+	ui  : '${1:round}',
+	text: '${2:Button}'${3:,
+	handler: function(button, event) {
+		$0
+	\}}
+});
+</string>
+	<key>name</key>
+	<string>Ext.Button</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>button</string>
+	<key>uuid</key>
+	<string>DF94F39D-DFAE-467B-BC15-D9C175B8A08C</string>
+</dict>
+</plist>

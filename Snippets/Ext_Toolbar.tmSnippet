@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>new Ext.Toolbar({
+	dock : '${1:top}',
+	title: '${2:My Toolbar}',
+	items: [${3:
+		{
+			text: '${4:My Button}'
+		\}$0
+	}]
+});
+</string>
+	<key>name</key>
+	<string>Ext.Toolbar</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>toolbar</string>
+	<key>uuid</key>
+	<string>7F1802DE-1A14-4892-9214-B7B3EA5AD8E2</string>
+</dict>
+</plist>
