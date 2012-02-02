@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>/**
+ * @class ${1:MyNamespace.}${2:${TM_FILENAME/(.+)\.js$/$1/}}
+ * @scroll ${3:scroll} vertical/horizontal/none/both
+ * @cls ${4:cls} your defined class
+ * @styleHtmlContent ${5:styleHtmlContent} true/false
+ * @url ${6:url}
+ * ${20:Description}
+ */
+
+${1:MyNamespace.}${2:ClassName} = Ext.Panel({
+	scroll: '${3:scroll}',
+	cls: '${4:cls}',
+	styleHtmlContent: '${5:styleHtmlContent}',
+     dockedItems: [
+					{
+	            			dock : 'top',
+	            			xtype: 'toolbar',
+	            			items: [
+	                				{
+	                    				text: 'Load using AJAX',
+	                    				handler: function() {
+	                        			var panel = ${1:MyNamespace.}${2:ClassName};
+	                        			panel.update('');
+	                        			panel.setLoading(true, true);
+	                        			Ext.Ajax.request({
+	        							styleHtmlContent: true,
+	                            		url: '${6:url}',
+	                                		success: function(response, opts) {
+	                                		panel.update(response.responseText);
+	                                		panel.scroller.scrollTo({x: 0, y: 0});
+	                                		panel.setLoading(false);
+	                            		}///end sucess function
+	                        			});///end Ext.Ajax.request
+	                    				}///end button handler
+	                				}///end item
+	            				]///end items:
+	       				}///end dockedItem
+				]///end dockedItems
+});///End Panel
+        
+
+</string>
+	<key>name</key>
+	<string>Ext.Panel.ajax</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>panelajax</string>
+	<key>uuid</key>
+	<string>3FF1377B-46FF-4C8E-9ED1-58D1A0B76D31</string>
+</dict>
+</plist>
