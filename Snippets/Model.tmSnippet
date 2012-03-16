@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>/**
+ * @class ${1:MyApp}.model.${2:${TM_FILENAME/(.+)\.js$/$1/}}
+ * @extends ${3:Ext.data.Model}
+ * ${4:Description}
+ */
+Ext.define('${1:MyApp}.model.${2:ClassName}', {
+    extend: '${3:Ext.data.Model}',
+    
+    config: {
+        fields: [
+            $0
+        ]
+    }
+});</string>
+	<key>name</key>
+	<string>Model</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>mod</string>
+	<key>uuid</key>
+	<string>B70D4258-947D-47ED-A1E4-F3452ECD89FB</string>
+</dict>
+</plist>

@@ -4,7 +4,7 @@
 <dict>
 	<key>content</key>
 	<string>Ext.override(${1:Ext.${2:SomeClass}}, {
-  $0
+    $0
 });</string>
 	<key>name</key>
 	<string>Ext.override</string>

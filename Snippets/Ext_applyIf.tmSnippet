@@ -4,7 +4,7 @@
 <dict>
 	<key>content</key>
 	<string>Ext.applyIf(${1:config}, {
-  $0
+    $0
 });</string>
 	<key>name</key>
 	<string>Ext.applyIf</string>

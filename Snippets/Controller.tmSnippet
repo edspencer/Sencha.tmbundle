@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>/**
+ * @class ${1:MyApp}.controller.${2:${TM_FILENAME/(.+)\.js$/$1/}}
+ * @extends ${3:Ext.app.Controller}
+ * ${4:Description}
+ */
+Ext.define('${1:MyApp}.controller.${2:ClassName}', {
+    extend: '${3:Ext.app.Controller}',
+    
+    config: {
+        refs: {
+            
+        },
+        control: {
+            $0
+        }
+    }
+});</string>
+	<key>name</key>
+	<string>Controller</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>con</string>
+	<key>uuid</key>
+	<string>21F9E11B-D912-4EDA-A83F-94B919A5676B</string>
+</dict>
+</plist>

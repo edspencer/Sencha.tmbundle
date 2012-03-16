@@ -3,16 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>Ext.apply(${1:config}, {
-    $0
+	<string>Ext.application({
+    name: '${1:MyApp}',
+    
+    models: [],
+    views: [],
+    controllers: [],
+
+    launch: function() {
+        $0
+    }
 });</string>
 	<key>name</key>
-	<string>Ext.apply</string>
+	<string>Application</string>
 	<key>scope</key>
 	<string>source.js</string>
 	<key>tabTrigger</key>
-	<string>apply</string>
+	<string>app</string>
 	<key>uuid</key>
-	<string>C5F68529-3A28-484A-9DC0-072777C085A9</string>
+	<string>44E7CBE5-87FC-4EB3-B095-A5C635F039D7</string>
 </dict>
 </plist>

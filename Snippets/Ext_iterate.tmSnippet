@@ -4,7 +4,7 @@
 <dict>
 	<key>content</key>
 	<string>Ext.iterate(${1:Object}, ${2:function(key, value) {
-  ${0}
+    ${0}
 \}}${3:, this});</string>
 	<key>name</key>
 	<string>Ext.iterate</string>

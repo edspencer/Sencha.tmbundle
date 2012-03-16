@@ -3,16 +3,18 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>Ext.apply(${1:config}, {
+	<string>initialize: function() {
+    this.callParent(arguments);
+    
     $0
-});</string>
+}</string>
 	<key>name</key>
-	<string>Ext.apply</string>
+	<string>initialize</string>
 	<key>scope</key>
 	<string>source.js</string>
 	<key>tabTrigger</key>
-	<string>apply</string>
+	<string>init</string>
 	<key>uuid</key>
-	<string>C5F68529-3A28-484A-9DC0-072777C085A9</string>
+	<string>6D73D419-EAA9-4F2E-B819-0BA9E00ABF69</string>
 </dict>
 </plist>

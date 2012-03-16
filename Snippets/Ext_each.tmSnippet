@@ -4,7 +4,7 @@
 <dict>
 	<key>content</key>
 	<string>Ext.each(${1:Array}, ${2:function(${4}) {
-  ${0}
+    ${0}
 \}}${3:, this});</string>
 	<key>name</key>
 	<string>Ext.each</string>
